@@ -4,3 +4,11 @@ metadata:
   name: cluster-name  ## needs to be present, but does not matter
   labels:
     env: dev
+    cluster-upgrade.bry-tam.io/automated: true
+    inframachines: enabled
+  annotations:
+    cluster-upgrade.bry-tam.io/desired-version: 4.20.20
+    cluster-upgrade.bry-tam.io/channel: stable-4.20
+    cluster-upgrade.bry-tam.io/window-start: 2026-11-25:00:00+01:00
+    cluster-upgrade.bry-tam.io/window-end: 2026-12-02:00:00+01:00
+    cluster-upgrade.bry-tam.io/allow-not-recommended: true

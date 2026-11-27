@@ -7,9 +7,10 @@ metadata:
     cluster-upgrade.bry-tam.io/automated: true
     inframachines: enabled
   annotations:
-    cluster-upgrade.bry-tam.io/desired-version: 4.20.25
+    cluster-upgrade.bry-tam.io/desired-version: 4.20.27
     cluster-upgrade.bry-tam.io/channel: stable-4.20
     cluster-upgrade.bry-tam.io/window-start: 2026-11-27T00:00:00+01:00
     cluster-upgrade.bry-tam.io/window-end: 2026-12-02T00:00:00+01:00
     cluster-upgrade.bry-tam.io/allow-not-recommended: true
     cluster-upgrade.bry-tam.io/force-two-stage: true
+    cluster-upgrade.bry-tam.io/node-pools: 'worker, infra, fake'
